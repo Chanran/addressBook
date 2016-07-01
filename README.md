@@ -12,11 +12,7 @@
 >    3.finish
 >
 ##pictures:
->    architecture
 >    ![architecture](/pictures/architecture.png)
->    login:
 >    ![login](/pictures/login.png)
->    register:
 >    ![register](/pictures/register.png)
->    main:
 >    ![main](/pictures/main.png)
