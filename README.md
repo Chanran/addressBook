@@ -1,6 +1,6 @@
 #java desktop application--addressBookV1.0
 
->java8,mysql
+>java 8,javafx 2.0,mysql 5.5.49
 >
 >use time:about two weeks
 >
