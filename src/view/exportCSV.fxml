@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="600.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<AnchorPane layoutX="14.0" layoutY="14.0" minHeight="0.0" minWidth="0.0" prefHeight="78.0" prefWidth="200.0">
+			<children>
+      				<Label layoutX="23.0" layoutY="11.0" prefHeight="56.0" prefWidth="133.0" text="生成文件">
+      					<font>
+      						<Font size="32.0" />
+      					</font>
+      				</Label>
+			</children>
+		</AnchorPane>
+		<TextField fx:id="fileName" layoutX="215.0" layoutY="148.0" prefHeight="27.0" prefWidth="191.0" />
+					<Button  defaultButton="true" layoutX="215.0" layoutY="237.0" mnemonicParsing="false" onAction="#exportCSV" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #5cb85c;" text="导  出" textFill="WHITE">
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+				</Button>
+				<Button fx:id="cancel" cancelButton="true" layoutX="332.0" layoutY="237.0" mnemonicParsing="false" onAction="#shutdownExport" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #d9534f;" text="关  闭" textFill="WHITE">
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+				</Button>
+				<Label layoutX="91.0" layoutY="141.0" prefHeight="31.0" prefWidth="108.0" text=" 输入文件名字">
+					<font>
+						<Font size="16.0" />
+					</font>
+				</Label>
+	</children>
+</fx:root>

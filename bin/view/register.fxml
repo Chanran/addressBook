@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+               <Label alignment="CENTER" contentDisplay="CENTER" layoutX="246.0" layoutY="28.0" prefHeight="56.0" prefWidth="107.0" text="注册">
+                  <font>
+                     <Font size="32.0" />
+                  </font>
+               </Label>
+               <Label layoutX="132.0" layoutY="98.0" prefHeight="31.0" prefWidth="54.0" text="用户名">
+                  <font>
+                     <Font size="16.0" />
+                  </font>
+               </Label>
+               <Label layoutX="132.0" layoutY="169.0" text="密   码">
+                  <font>
+                     <Font size="16.0" />
+                  </font>
+               </Label>
+               <TextField fx:id="name" layoutX="209.0" layoutY="100.0" prefHeight="27.0" prefWidth="191.0" />
+               <Button id="register" defaultButton="true" layoutX="210.0" layoutY="295.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="73.0" style="-fx-background-color: #5cb85c;" text="注册" textFill="WHITE" onAction="#register" >
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+               </Button>
+               <Button id="reset" cancelButton="true" layoutX="333.0" layoutY="295.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #d9534f;" text="重置" textFill="#ebe5e5" onAction="#reset" >
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor>
+               </Button>
+               <Label layoutX="132.0" layoutY="231.0" prefHeight="29.0" prefWidth="58.0" text="确认密码">
+                  <font>
+                     <Font size="14.0" />
+                  </font>
+               </Label>
+         </children>
+      </AnchorPane>
+      <PasswordField fx:id="pwd1" layoutX="217.0" layoutY="176.0" prefHeight="27.0" prefWidth="191.0" />
+      <PasswordField fx:id="pwd2" layoutX="217.0" layoutY="244.0" prefHeight="27.0" prefWidth="191.0" />
+      </children>
+</fx:root>

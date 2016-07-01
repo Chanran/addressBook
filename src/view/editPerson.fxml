@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="600.0" type="javafx.scene.layout.Pane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+      <TextField fx:id="name" layoutX="210.0" layoutY="50.0" prefHeight="27.0" prefWidth="191.0" />
+	  <TextField fx:id="telephone" layoutX="210.0" layoutY="98.0" prefHeight="27.0" prefWidth="191.0" />
+      <TextField fx:id="qq" layoutX="211.0" layoutY="150.0" prefHeight="27.0" prefWidth="191.0" />
+      <TextField fx:id="wechat" layoutX="211.0" layoutY="201.0" prefHeight="27.0" prefWidth="191.0" />
+      <TextField fx:id="email" layoutX="211.0" layoutY="249.0" prefHeight="27.0" prefWidth="191.0" />
+      <TextField fx:id="weibo" layoutX="211.0" layoutY="296.0" prefHeight="27.0" prefWidth="191.0" />
+      <TextField fx:id="blog" layoutX="212.0" layoutY="342.0" prefHeight="27.0" prefWidth="191.0" />
+      <TextField fx:id="github" layoutX="212.0" layoutY="391.0" prefHeight="27.0" prefWidth="191.0" />
+      <TextField fx:id="address" layoutX="212.0" layoutY="437.0" prefHeight="27.0" prefWidth="191.0" />
+	  <ListView fx:id="groupsListView" layoutX="211.0" layoutY="473.0" prefHeight="98.0" prefWidth="191.0" />
+				<Label layoutX="14.0" prefHeight="41.0" prefWidth="120.0" text="编辑联系人">
+					<font>
+						<Font size="22.0" />
+					</font>
+				</Label>
+      <Label layoutX="133.0" layoutY="49.0" prefHeight="31.0" prefWidth="65.0" text="姓   名">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+				<Label layoutX="136.0" layoutY="249.0" prefHeight="31.0" prefWidth="65.0" text="Email">
+					<font>
+						<Font size="16.0" />
+					</font>
+				</Label>
+      <Label layoutX="134.0" layoutY="100.0" prefHeight="31.0" prefWidth="65.0" text="手   机">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="479.0" prefHeight="31.0" prefWidth="65.0" text="分   组">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+					<Button defaultButton="true" layoutX="211.0" layoutY="587.0" mnemonicParsing="false" onAction="#editPerson" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #5cb85c;" text="保  存" textFill="WHITE">
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+				</Button>
+				<Button cancelButton="true" layoutX="330.0" layoutY="586.0" mnemonicParsing="false" onAction="#reset" prefHeight="27.0" prefWidth="74.0" style="-fx-background-color: #d9534f;" text="重  置" textFill="WHITE">
+					<cursor>
+						<Cursor fx:constant="HAND" />
+					</cursor>
+				</Button>
+      <Label layoutX="137.0" layoutY="149.0" prefHeight="31.0" prefWidth="65.0" text="Q   Q">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="199.0" prefHeight="31.0" prefWidth="65.0" text="微  信">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="293.0" prefHeight="31.0" prefWidth="65.0" text="微  博">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="339.0" prefHeight="31.0" prefWidth="65.0" text="博  客">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="135.0" layoutY="386.0" prefHeight="31.0" prefWidth="65.0" text="github">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="134.0" layoutY="434.0" prefHeight="31.0" prefWidth="65.0" text="地  址">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+	</children>
+</fx:root>
