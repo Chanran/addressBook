@@ -12,7 +12,9 @@
 >
 >    2.import src/data/addressBook.sql to your addressBook database.
 >
->    3.finish
+>    3.import all required jar package
+>
+>    4.finish
 >
 ##pictures:
 >
