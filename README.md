@@ -1,12 +1,12 @@
-#java desktop application--addressBookV1.0
+# java desktop application--addressBookV1.0
 
->java 8,javafx 2.0,mysql 5.5.49
+> java 8,javafx 2.0,mysql 5.5.49
 >
->use time:about two weeks
+> use time:about two weeks
 >
->author:mainly blue(some codes like import&export written by my teammates)
+> author:mainly blue(some codes like import&export written by my teammates)
 >
-##usage:
+## usage:
 >
 >    1.create a database named addressBook in mysql of your PC(ps: make sure there is mysql in your PC.)
 >
@@ -16,7 +16,7 @@
 >
 >    4.finish
 >
-##pictures:
+## pictures:
 >
 >    ![architecture](/pictures/architecture.png)
 >
